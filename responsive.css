@@ -54,5 +54,14 @@
         padding-left: 100px;
     }
 
+    .host-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-icon{
+        justify-content: center;
+    }
+
 }
     
