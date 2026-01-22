@@ -65,15 +65,11 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-position: center;
 }
 
 .rounded-mic-parent{
     position: relative;
-    
-}
-
-.rounded-shape{
-    /* display: block; */
 }
 
 .mic{
@@ -91,6 +87,8 @@ body{
     padding: 8px 16px;
     border-radius: 1000px;
     border: none;
+    position: absolute;
+    left: 330px;
 }
 
 .banner-container > div > h1{
@@ -133,4 +131,25 @@ body{
     padding: 12px 20px;
     border: 1px solid #00FF88;
     background-color: rgba(26, 11, 46, 1);
+}
+
+/* About The Podcast Section  */
+.about-podcast-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(26, 11, 46, 1);;
+}
+
+.about-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.about-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 80px;
 }

@@ -16,5 +16,21 @@
         height: 24px;
         margin: 16px 24px;
     }
+
+    .about-podcast-section{
+        max-width: 400px;
+    }
+
+    .about-title{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+    }
+
+    .about-description{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
 }
     
