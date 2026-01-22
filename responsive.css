@@ -63,5 +63,16 @@
         justify-content: center;
     }
 
+    .podcast-icon{
+        display: grid;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flex{
+        justify-content: center;
+        gap: 16px;
+    }
 }
     
